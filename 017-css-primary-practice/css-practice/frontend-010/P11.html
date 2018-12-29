@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        a:hover{
+        border:2px solid black;
+    }
+    button:active{
+        border:2px solid black;
+        /* active激活状态，
+            鼠标点击时触发激活状态
+            鼠标抬起时消除激活状态
+        */
+    }
+    input:focus{
+        background: red;
+        /* :focus元素聚焦状态--
+            一般在鼠标按下的时候，
+            或者使用tab键切换的时候触发
+        */
+    }
+    [type="checkbox"]:checked{
+        outline: 2px solid #000;
+        /* 
+            :checked只适用于type属性为checkbox
+            ,radio
+            和<option>
+        */
+    }
+    input:disabled{
+        outline: 2px solid #000;
+        /* 制作用于input,里面必须含有disabled */
+    }
+    input:enabled{
+        outline: 2px solid #000;
+        /* :enabled作用于不是禁止状态的input或者textarea */
+    }
+    p:empty{
+        outline: 2px solid #000;
+        /* 不包含任何子元素或者文字的元素 */
+    }
+    span:first-child{
+        outline: 2px solid #000;
+        /* :first-child用于选择一组平行元素中最先出现的元素
+        注意这些元素必须要包含到一个div中 */
+    }
+    span:last-child{
+        outline: 2px solid #000;
+    }
+    span:nth-child(2){
+        outline: 2px solid #000;
+        /* 选择一组平行元素排在第n为的元素 */
+    }
+    </style>
+</head>
+
+<body>
+    <a href="#">yo</a>
+    <button href="#">yo</button>
+    <input type="text">
+    <input type="checkbox" checked>
+    <input disabled>
+    <input enabled>
+    <p>cjksdv</p>
+    <p></p>
+    <div>
+        <span>老大</span>
+        <span>老二</span>
+        <span>三儿</span>
+    </div>
+
+</body>
+
+</html>

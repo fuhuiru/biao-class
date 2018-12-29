@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    span:first-of-type{
+        /* 会选择同类元素中的第一项 */
+        outline: 2px solid black;
+    }
+    span:last-of-type{
+        outline: 2px solid black;
+    }
+    a:nth-of-type(2){
+        outline: 2px solid black;
+    }
+    a:nth-last-of-type(2){
+        outline: 2px solid black;
+    }
+    
+    </style>
+</head>
+
+<body>
+    <a>a老大</a>
+    <a>a老二</a>
+    <span>span老大</span>
+    <span>span老二</span>
+</body>
+
+</html>

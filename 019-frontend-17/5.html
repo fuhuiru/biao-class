@@ -1,0 +1,122 @@
+<style>
+    *{
+        box-sizing: border-box;
+    }
+    .row{
+        border:solid;
+    }
+    .col{
+        float: left;
+        display: block;
+        border:solid 
+    }
+    .row:before,
+    .row:after{
+        content: "";
+        display: block;
+        clear:both;
+        margin-bottom: 5px;
+    }
+    .col-4{
+        width: 16.666666666666%;
+    }
+    .col-6{
+        width: 25%;
+    }
+    .col-8{
+        width: 33.333333333333%;
+    }
+    .col-10{
+        width: 41.666666666666%;
+    }
+    .col-12{
+        width: 50%;
+    }
+    .col-14{
+        width: 58.333333333333%;
+    }
+    .col-16{
+        width: 66.666666666666%;
+    }
+    .col-18{
+        width: 75%;
+    }
+    .col-20{
+        width: 83.3333333333333%;
+    }
+    .col-24{
+        width: 100%;
+    }
+</style>
+<div class="header">
+    <div class="row nav">
+        <div class="col col-16">左导航</div>
+        <div class="col col-8">右导航</div>
+    </div>
+</div>
+<div class="content">
+    <div class="row nav">
+        <div class="col col-6">logo</div>
+        <div class="col col-10">链接组</div>
+        <div class="col col-8">搜索框</div>
+    </div>
+    <div class="main">
+        <div class="row title">
+            <div class="col col-24">讨论精选</div>
+        </div>
+        <div class="col col-16">
+            <div class="row articl">
+                <div class="col col-4">like</div>
+                <div class="col col-20">
+                    <div class="row">titlename</div>
+                    <div class="row">
+                        <div class="col col-6">图片</div>
+                        <div class="col col-18">qqq</div>
+                    </div>
+                    <div class="row">
+                        <div class="col col-12">作者</div>
+                        <div class="col col-12">发布时间</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row articl">
+                <div class="col col-4">like</div>
+                <div class="col col-20">
+                    <div class="row">titlename</div>
+                    <div class="row">
+                        <div class="col col-6">图片</div>
+                        <div class="col col-18">qqq</div>
+                    </div>
+                    <div class="row">
+                        <div class="col col-12">作者</div>
+                        <div class="col col-12">发布时间</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col col-8">
+            <div class="row title">值得加入的小组</div>
+            <div class="row group">
+                <div class="col col-6">小组头像</div>
+                <div class="col col-18">
+                    <div class="row">南京单身青年</div>
+                    <div class="row other">
+                        <div class="col col-10">xxx个加入成员</div>
+                        <div class="col col-12">加入小组</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row group">
+                <div class="col col-6">小组头像</div>
+                <div class="col col-18">
+                    <div class="row">南京单身青年</div>
+                    <div class="row other">
+                        <div class="col col-10">xxx个加入成员</div>
+                        <div class="col col-12">加入小组</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer"></div>

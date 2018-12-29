@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    .grandpa{
+        font-size: 20px;
+    }
+    p{
+        color:darkgoldenrod;
+        /* p元素里面的a没有作用 */
+        /* 继承样式的权重极低，他不但比全局选择器低，而且还比默认样式低 */
+    }
+    a{
+        color:inherit;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="great-grandfather">
+        曾爷爷：我穷
+        <div class="grandpa">
+            爷爷：我要祖传font-size
+            <div class="pa">
+                爸爸：我要祖传color
+                <div class="baby">
+                    娃：Yo
+                </div>
+            </div>
+        </div>
+    </div>
+    <p>
+        你好<a href="#">我是链接</a>
+    </p>
+</body>
+
+</html>

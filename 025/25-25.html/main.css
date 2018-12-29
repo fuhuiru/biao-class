@@ -1,0 +1,109 @@
+/* ======全局样式开始====== */
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background: #aaa;
+}
+.row {
+    border: 2px solid #aaa;
+   
+}
+
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-9,
+.col-10,
+.col-11,
+.col-12,
+.col {
+    float: left;
+    display: block;
+    min-height: 30px;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+
+
+
+.col-1 {
+    width: 8.3333323333%;
+}
+
+.col-2 {
+    width: 16.566666666%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.333333333%;
+}
+
+.col-5 {
+    width: 41.666666666%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.333333333%;
+}
+
+.col-8 {
+    width: 66.666666666%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.333333333%;
+}
+
+.col-11 {
+    width: 91.666666666%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.row:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.wrapper{
+    max-width:700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* 页面样式 */
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.nav{
+    background: #b94f4f;
+}
+.nav a{
+    
+    color:#777;
+    padding: 10px;
+}
+.content{
+    background: #a498d4;
+    box-sizing: border-box;
+    padding: 20px;
+}

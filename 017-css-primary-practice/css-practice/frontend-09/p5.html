@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    [href*=y]{
+       background-color: brown;
+    }
+    [href^=h]{
+        color:rebeccapurple;
+    }
+    [href$=m]{
+        font-size: 20px;
+    }
+    </style>
+</head>
+<body>
+    <!-- 属性选择器 -->
+    <!-- [属性名称="属性值"] -->
+    <!-- 
+        [属性名称^="xxx"]---属性名称是以xxx开始的会被选中
+        [属性名称$="sss"]---属性值是以sss结束的会被选中
+        [属性名称*="qqq"]---属性值中含有qqq的会被选中
+     -->
+     <a href="http://baodu.com">百度</a>
+     <a href="http://taobao.com">淘宝</a>
+     <a href="http://biaoyansu.com">表严肃</a>
+</body>
+</html>

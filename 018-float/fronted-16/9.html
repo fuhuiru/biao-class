@@ -1,0 +1,31 @@
+<style>
+    * {
+        box-sizing: border-box;
+    }
+    .row{
+        border: 2px solid rgba(255, 0, 0, 0.4);
+        background: rgba(255, 0, 0, 0.1);
+        padding: 40px;
+    }
+    .col {
+        width: 50%;
+        min-height: 50px;
+        border: 2px solid rgba(255, 0, 0, 0.4);
+        float: left;
+        background: rgba(255, 0, 0, 0.3);
+        padding: 30px;
+        font-size: 100px;
+    }
+    .row:after{
+        content: "";
+        display:block;
+        clear: both;
+    }
+</style>
+<div class="row">
+    <div class="col">
+        <div class="col">AAA</div>
+        <div class="col">BBB</div>
+    </div>
+    <div class="col">BB</div>
+</div>

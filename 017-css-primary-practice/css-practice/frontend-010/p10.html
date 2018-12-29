@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    #me ~ span{
+        color:deeppink;
+        /* 兄弟选择器
+        找一个弟弟 +
+        找全部的弟弟 ~
+        兄弟选择器暂时没有找哥哥的方法
+        可以使用父子选择器来找哥哥
+        */
+    }
+    </style>
+</head>
+<body>
+        <span>哥哥</span>
+        <span id="me">我</span>
+        <span>弟弟</span>
+        <span>弟弟</span>
+</body>
+</html>

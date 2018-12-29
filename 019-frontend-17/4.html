@@ -1,0 +1,28 @@
+<style>
+*{
+    box-sizing: border-box;
+}
+.col{
+    float: left;
+    border: solid;
+}
+.row:before,
+.row:after{
+    content: "";
+    display: block;
+    clear: both
+}
+.col-1{
+    width: 4.16666666666%;
+}
+.col-2{
+    width: 8.166666666666%;
+}
+.col-23{
+    width:95.833333333333%;
+}
+</style>
+<div class="row">
+    <div class="col col-1">1</div>
+    <div class="col col-23">23</div>
+</div>
