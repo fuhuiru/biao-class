@@ -1,0 +1,67 @@
+.wrapper{
+    max-width: 800px;
+    margin: 0 auto;
+}
+[class*=col-]{
+    background: rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0,0,0,0.2);
+}
+.logo{
+    height: 61px;
+}
+.nav input,
+.col-4 button{
+    padding: 5px;
+    /* width: 100%; */
+    margin-top: 15px;
+    border: 1px solid #aaaaaa;
+}
+
+.nav .link-group a{
+    padding: 20px 15px;
+    display: inline-block;
+    /* 因为a元素默认是inline--inline是不作用上下padding和margin的 */
+}
+.banner .col-8{
+    background-image: url(https://img1.doubanio.com/view/puppy_image/raw/public/16874860437wq5ntbd7.jpg);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: -20px 0;
+}
+form input{
+    width: 100%;
+    margin-top: 5px;
+}
+.heading{
+    font-weight: 10px;
+    margin-bottom: 10px;
+
+}
+.col-8 .col-5{
+    padding: 30px;
+}
+img{
+    max-width: 100%;
+    /* 限制所有图片的的最大宽度不能超过他的母元素的宽度 */
+}
+.hot .col-4 .img{
+    margin-top: 20px;
+}
+.cat-title,
+.sub-title a,
+.artical-title a{
+    display: block; 
+}
+.cat-title{
+    font-size: 2rem;
+}
+.cat-title,
+.sub-title a{
+    padding: 5px;
+}
+.movie-button button{
+    margin-left: 15px;
+}
+.movie-clasify{
+    padding: 3px 18px;
+}

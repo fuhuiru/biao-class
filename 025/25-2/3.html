@@ -1,0 +1,73 @@
+<style>
+    .box {
+        /* positon----定位方式 默认是static*/
+        /* position可以选择的属性值为
+        static---默认状态的值（向网页的左上角流动的）
+        relative--相对定位（可以基于出生点去移动的能力，有4个属性可以控制位置）
+        (上下左右这4个属性都可以作用 )
+        fixed----相对浏览器视窗窗口定位(这个是会一直定在视窗窗口中通过上下左右属性规定的位置)
+        （滚动的时候不会影响这个元素，会一直悬挂在这个位置）
+        absolute---绝对定位--相对自己的第一个非正常定位的祖先定位的，但如果他没有非正常定位的
+        祖先的话，那么他就是会相对首屏定位
+        （是相对文档的首屏--定位属性把元素定在首屏的某个位置，会随着滚动条滚动）
+        absolute和relative结合起来使用，父级元素使用relative定位方式，子级元素使用absolute定位方式，无论父级元素怎样移动，子元素都是固定的位置
+    */
+        /* position: absolute;
+    width: 100px;
+    height: 100px;
+    bottom: 10px;
+    left: 10px; 
+    background: rebeccapurple; */
+        position: relative;
+        width: 200px;
+        height: 200px;
+        top: 30px;
+        left: 30px;
+        background: rgba(0, 0, 0, 0.2);
+    }
+
+    .box1 {
+        width: 150px;
+        height: 150px;
+        background: rgba(0, 0, 0, 0.2);
+    }
+
+    .box2 {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        left: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.3);
+        /* 这时box2会在他爷爷的左下角，不是在他父亲的左下角，
+    absolute是相对他的第一个非正常定位的祖先定位的。
+    box2的父亲不是非正常定位，他的爷爷是非正常定位的，所以他是相对他的爷爷定位
+    注意，所有position的属性为static的都是正常定位，
+     */
+    }
+    .parent{
+        position: fixed;
+        width: 100px;
+        height: 100px;
+        left: 0;
+       top: 0; 
+        background: rgba(0, 0, 0, 0.2)
+    }
+    .son{
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        left: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.3);
+    }
+</style>
+hviewnbeqrogjrtbl dvkoeifjbrtnb dverignvrendv
+<div class="box">
+    <div class="box1">
+        <div class="box2"></div>
+    </div>
+</div>
+<div class="parent">
+    <div class="son"></div>
+</div>

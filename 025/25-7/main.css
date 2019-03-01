@@ -1,0 +1,105 @@
+*{
+    
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    margin: 0;
+    color: #fff;
+}
+.wrapper{
+    margin: 0 auto;
+    max-width: 700px;
+    /* 定义限制居中 */
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.row{
+    /* border: 2px solid black; */
+    margin-top: 10px;
+}
+.clear:before,
+.clear:after,
+.row:after,
+.row:before{
+    content:"";
+    display: block;
+    clear: both;
+}
+
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col{
+    float: left;
+    display: block;
+    
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.col-1{
+    width: 10%;
+}
+.col-2{
+    width: 20%;
+}
+.col-3{
+    width: 30%;
+}
+.col-4{
+    width: 40%;
+}
+.col-5{
+    width: 50%;
+}
+.col-6{
+    width: 60%;
+}
+.col-7{
+    width: 70%;
+}
+.col-8{
+    width: 80%;
+}
+.col-9{
+    width: 90%;
+}
+.col-10{
+    width: 100%;
+}
+/* 页面样式结束 */
+.nav, .footer{
+    background: #aaa; 
+    
+}
+.nav a{
+    padding: 5px;
+    color: #666777;
+
+}
+.content{
+    background: #888888;
+    padding: 18px;
+}
+.sidebar.left a{
+    display: block;
+}
+.sidebar.right a{
+    display: block;
+}
+.footer{
+padding: 20px;
+}

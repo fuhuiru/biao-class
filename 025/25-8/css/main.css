@@ -1,0 +1,50 @@
+.nav{
+    background: #ffcf;
+    color: cadetblue;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    overflow: auto;
+
+}
+.nav a{
+    display: block;
+    padding: 50px;
+    font-size: 40px;
+}
+.content{
+    background: #aaafff;
+    float: right;
+}
+.card.orange{
+    padding: 20px;
+    background: rgb(221, 178, 38);
+    border: 1px solid black;
+    margin: 10 15;
+    border-radius: 6px;
+}
+.card.green{
+    padding: 20px;
+    background: rgb(155, 226, 137);
+    border: 1px solid black;
+    margin: 10 15;
+    border-radius: 6px;
+}
+.card.pink{
+    padding: 20px;
+    background: rgb(190, 128, 170);
+    border: 1px solid black;
+    margin: 10 15;
+    border-radius: 6px;
+}
+.card{
+    padding: 20px;
+    background: rgb(175, 171, 174);
+    border: 1px solid black;
+    margin: 10 15;
+    border-radius: 6px;
+}
+
+
+

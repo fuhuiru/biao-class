@@ -1,0 +1,35 @@
+.nav{
+    background: rgba(0,0,255,0.15);
+    
+    /* left: 0;
+    /* left                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            */
+    /* right: 0; */
+}
+.nav a{
+    text-decoration: none;
+    color: darkkhaki;
+    font-size: 40px;
+    padding: 36px;
+    
+}
+.content{
+   
+}
+.content > *{
+    position: fixed;
+   bottom: 0; 
+   top: 124px;
+    border: 2px solid black;
+    background: rgba(255,0,0,0.2);
+}
+.content .blue{
+    background: #77ccff;
+    overflow: auto;
+    left: 0;
+}
+.content .yellow{
+    background: #fddc7c;
+    overflow: auto;
+    right: 0;
+
+}

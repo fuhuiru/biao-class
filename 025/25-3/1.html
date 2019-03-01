@@ -1,0 +1,28 @@
+<style>
+    .box1 {
+        width: 200px;
+        height: 200px;
+        border: 2px solid black;
+        background:blue;
+      
+    }
+    .parent{
+        border:4px solid black;
+    }
+    .fl {
+        float: left;
+    }
+    .clear{
+        clear: both;
+        /* 给元素清除浮动之后，元素其实还在漂浮，没有落在海床上 */
+    }
+</style>
+<div class="parent">
+    <!-- 这里有一个坑，如果浮动的元素包在他的父元素边框中， -->
+    <!-- 浮动会脱离文档流，也就导致他的父亲不知道儿子的存在 -->
+    <div class="box1 fl "></div>
+    <!-- 解决办法，在下面添加一个空白div,给这个空白的div清除浮动 -->
+    <div class="clear"></div>
+</div>
+ 
+<!-- 此时让box1浮动，他会飘起来脱离文档流，脱离文档流之后，就会覆盖下面的box1 -->

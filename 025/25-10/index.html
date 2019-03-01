@@ -1,0 +1,41 @@
+<style>
+.inline-block{
+    display: inline-block;
+    vertical-align: bottom;    
+    /* 让他在垂直方式上的对齐方式为top-向顶部对其 */
+}
+.content{
+    font-size: 0;
+    /* font-size为0就是为了给空格he断行指定的 */
+    /* 指定font-size为0，他们之间的空格就没了
+    但是，里面的文字内容也会消失，所以要在下面的单独指定font-size */
+}
+.red{
+    background: red;
+    /* padding: 20px; */
+    width: 20%;
+    font-size: 20px;
+    /* 要单独指定font-size */
+}
+.yellow{
+    background: yellow;
+    /* padding: 10px; */
+    width: 30%;
+    font-size: 20px;
+
+}
+.blue{
+    background: blueviolet;
+    /* padding: 15px; */
+    width: 50%;
+    font-size: 20px;
+
+}
+</style>
+<div class="content">
+    <!-- 块级元素div之间不计入空格，但行内块元素会计入空格，会把多个空格压缩成一个
+    在网页中出现 -->
+    <div class="inline-block red">1</div>
+    <div class="inline-block yellow">2</div>
+    <div class="inline-block blue">3</div>
+</div>
