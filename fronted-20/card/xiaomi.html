@@ -1,0 +1,80 @@
+<link rel="stylesheet" href="../css/global.css">
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    .img {
+        max-width: 100%;
+        height: 320px;
+        background: #aaa;
+    }
+    .about-phone{
+        max-width: 100%;
+        background: #eee;
+        text-align: center;
+        font-size: 1.15em;
+        font-weight: bold;
+    }
+    .about-phone >*{
+        padding-top: 10px;
+    }
+    .col {
+        padding: 20px;
+        border: 1px solid rgba(0,0,0,0.2);
+    }
+    .price .after-price{
+        color: #ff6700;
+    }
+    .price .before-price{
+        color: #888;
+        text-decoration: line-through;
+    }
+    .ppp{
+        position: relative;;
+    }
+    .discount{
+        position: absolute;
+        top: 0;
+        left: 60px;
+        color: #fff;
+        width: 80px;
+        height: 28px;
+        background: rgb(194, 50, 50);
+        text-align: center;     
+    }
+</style>
+<div class="row">
+    <div class="col col-6">
+        <div class="ppp">
+            <div class="img"></div>
+            <span class="discount">减200元</span>
+        </div>
+        <div class="about-phone">
+            <div class="title">小米8 青春版 4GB+64GB</div>
+            <div class="detail">潮流镜面渐变色，2400万自拍旗舰</div>
+            <div class="price">
+                <span class="after-price">1399元</span>
+                <span class="before-price"> 1599元</span>
+            </div>
+        </div>
+
+
+
+    </div>
+    <div class="col col-6">
+        <div>
+            <div class="img"></div>
+        </div>
+    </div>
+    <div class="col col-6">
+        <div>
+            <div class="img"></div>
+        </div>
+    </div>
+    <div class="col col-6">
+        <div>
+            <div class="img"></div>
+        </div>
+    </div>
+</div>
