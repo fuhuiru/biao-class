@@ -1,0 +1,15 @@
+.nav{
+    background: #555;
+}
+.nav a{
+    color: #ddd;
+    text-decoration: none;
+    display: inline-block;
+    padding: .5em 1em;
+}
+.user{
+    text-align: right;
+}
+a:hover{
+    color: #fff;
+}
