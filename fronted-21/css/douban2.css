@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+}
+.global .wrapper{
+    max-width: 1366px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.global.nav{
+    background: #555;
+}
+.global.nav  a{
+    font-size: .6rem;
+    color: #ddd;
+    display: inline-block;
+    padding: 6px 12px;
+}
+.global.nav  a:hover{
+    color: #fff;
+}
+.global .col-8 a{
+    float: right;
+}
+.nav.page{
+    background: #f0f6f3;
+}
+.nav.page .logo{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: #037b82;
+    display: block;
+    text-align: left;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.link-group,
+.search{
+    padding-top: 25px;
+}
+.nav.page .link-group a{
+    color: #037b82;
+    padding-left: 20px;
+    font-size: 1.01rem;
+}
+.nav.page .search input{
+    width: 80%;
+    height: 36px;
+}
+.nav.page .search button{
+    height: 36px;
+    width: 34px;
+    background: transparent;
+    outline: 0;
+    border: none;
+    position: absolute;
+    right: 150px;
+}
+.row.title h1{
+    font-size: 1.8rem;
+    font-weight: normal;
+}
+.like{
+    color: #ca6445;
+    background: #fae9da;
+    vertical-align: middle;
+    text-align: center;
+    margin-right: 40px;
+    width: 50px;
+    height: 50px;
+    padding-top: 10px;
+}
+.artical.title{
+    font-size: 1.03rem;
+    color: #669;
+}
+.artical.content{
+    background: #f9f9f9;
+    padding: 10px;
+}
+.artical.content .img{
+    width: 60px;
+    height: 60px;
+    background: #555;
+}
+.info{
+    padding-left: 10px;
+    
+}
+.content .col-6{
+    padding-left: 50px;
+}
+.content .col-20{
+    padding-left: 30px;
+}
+.info.row{
+    margin-top: 16px;
+}
+.footer{
+    padding-top: 40px;
+}

@@ -1,0 +1,126 @@
+.text-right{
+    text-align: right;
+}
+/*月考上面的样式就越基础，覆盖能力就越弱，越靠下面，样式的覆盖能力就越强      */
+.nav.global{
+    background: #555;
+}
+.nav.global a:hover{
+    color: #fff;
+}
+.nav.global a{
+    color: #eee;
+    display: inline-block;
+    padding: 6px 12px;
+    font-size: 0.7rem;
+}
+.global .wrapper{
+    max-width: 100%;
+    padding-left: auto;
+    padding-right: auto;
+}
+.page.nav{
+    background: #f0f6f3;
+    height: 72px;
+}
+.page.nav a{
+    display: inline-block;
+    margin-top: 24px;
+    margin-left: 16px;
+}
+.page.nav .logo{
+    padding-top: 15px;
+    color:#5ca8ac;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+.page.nav .nav-items a{
+    color:  #037b82;
+    font-size: 1.02rem;
+    
+}
+.page.nav a:hover{
+    background: #037b82;
+    color: #fff;
+}
+.page.nav .nav-search{
+    padding-top: 22px;
+}
+.page.nav .nav-search button{
+    background: transparent;
+    border: none;
+    position: absolute;
+    right: 108px;
+    top: 55px;
+}
+.page.nav .nav-search input{
+    width: 100%;
+}
+button,
+input{
+    padding: 6px 30px;
+}
+button:focus,
+input:focus{
+    border-color: #0a3e41;
+}
+h1{
+    font-size: 23px;
+    font-weight: normal;
+}
+.activity .like{
+    display: inline-block;
+    width: 50px;
+    margin-right: 30px;
+    background: #fae9da;
+    color: #ca6445;
+    display: inline-block;
+    text-align: center;
+}
+.activity .like > *{
+    padding: 3px;
+}
+.col-20 .title{
+    color: #37a;
+    font-size: 1.02rem;
+    display: block;
+    margin-bottom: 10px;
+}
+.col-20 .title:visited{
+    color: #669;
+}
+.activity .desc{
+    background:#f9f9f9;
+    color: #888;
+    margin-bottom: 10px;
+}
+.activity{
+    margin-top: 20px;
+    margin-right: 50px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #ccc;
+}
+.rcom{
+    border-top: 1px solid #ccc;
+    padding-top: 14px;
+    margin-top: 10px;
+}
+.col-6 .img{
+    width: 40px;
+    height: 40px;
+    background: #037b82;
+    margin-right: 14px;
+}
+.join{
+    right: 5px;
+}
+.main{
+    margin-bottom: 40px;
+}
+.row.footer{
+    padding-top: 400px;
+}
+.footer a{
+    color: #37a;
+    padding-left: 8px;
+}
