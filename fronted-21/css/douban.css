@@ -50,7 +50,7 @@
     background: transparent;
     border: none;
     position: absolute;
-    right: 108px;
+    right: 160px;
     top: 55px;
 }
 .page.nav .nav-search input{
@@ -114,11 +114,9 @@ h1{
 .join{
     right: 5px;
 }
-.main{
-    margin-bottom: 40px;
-}
-.row.footer{
-    padding-top: 400px;
+.footer{
+    margin: 60px;
+    padding-top: 30px;
 }
 .footer a{
     color: #37a;
